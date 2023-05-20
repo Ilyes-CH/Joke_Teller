@@ -1,12 +1,12 @@
 
 const button = document.getElementById('btn');
-// const audio = document.getElementById('audio');
+
 
 
 // passing joke to voice RSS API
 
     function tellMe(joke){
-        const jokeString = joke.trim().replace(/ /g, '%20'); //trim to remove space
+        const jokeString = joke.trim().replace(/ /g, '%20'); 
        try{     VoiceRSS.speech({
             key: '86e7efa939384dbd9be22d8da37a4aa3',
             src: jokeString,
@@ -37,7 +37,7 @@ const button = document.getElementById('btn');
                 console.log('404 error');
                 getJokes();
                 }
-            const data = await response.json() //from bson to json
+            const data = await response.json() 
             if(data.setup){
                 joke = `${data.setup} ...${data.delivery}`
             }
