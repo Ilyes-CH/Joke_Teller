@@ -1,4 +1,4 @@
-# zero-config-workshop-3-js
+
 # Joke Teller
 ![Game Preview](screenshot.png)
 ## Description
