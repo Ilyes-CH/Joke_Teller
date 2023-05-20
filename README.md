@@ -1,6 +1,8 @@
 
 # Joke Teller
 You can view the live version of this project [here]('https://ilyes-ch.github.io/Joke_Teller/')
+
+##Preview
 ![Game Preview](screenshot.png)
 ## Description
 
